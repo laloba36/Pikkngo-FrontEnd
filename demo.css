@@ -1,0 +1,73 @@
+
+.main
+{
+	display: flex;
+	flex-wrap: wrap;
+    height: 100vh;
+	
+    justify-content: center;
+}
+
+.logo
+{
+	position: absolute;
+width: 236px;
+height: 81px;
+
+
+background: url(untitled.png);
+}
+.title
+{
+	
+}
+.maintag
+{
+
+position: absolute;
+width: 279px;
+height: 144px;
+top: 275px;
+}
+.btn
+{
+	position: absolute;
+	top: 500px;
+}
+button
+{
+
+
+width: 206px;
+height: 50px;
+color: #ffffff;
+outline: none;
+border: none;
+background: #2FC3FF;
+border-radius: 300px;
+}
+.login
+{
+	position: absolute;
+	top: 575px;
+	width: 206px;
+
+}
+a
+{
+
+position: absolute;
+
+height: 16px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+
+
+color: #0088FF;
+
+}

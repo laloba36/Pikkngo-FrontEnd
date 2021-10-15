@@ -1,0 +1,14 @@
+.card
+{
+    height: 300px;
+}
+.card img
+{
+    height: 125px;
+    width: 125px;
+}
+.card-body
+{
+    height: 175px;
+    widows: 250px; ;
+}

@@ -1,0 +1,170 @@
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Montserrat;
+   
+}
+body
+{
+  background-color: #ffffff;
+}
+.main
+{
+	width: 350px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.logo
+{
+
+    width: 250px;
+	position: absolute;
+	top: 10px;
+	cursor: pointer;
+    left: 15%;
+    
+
+}
+
+.title
+{
+    position: absolute;
+    width: 306px;
+    height: 29px;
+    left: 14%;
+    top: 20%;
+    
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    
+    color: #424242;
+}
+.firstName
+{
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    left: 7%;
+    top: 29%;
+    border:none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+}
+.lastName
+{
+
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    left: 7%;
+    top: 38%;
+    border:none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+    
+}
+.userName
+{
+
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    left: 7%;
+    top: 48%;
+    border:none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+}
+.mobileNumber
+{
+    
+position: absolute;
+width: 287px;
+height: 45px;
+left: 7%;
+top: 58%;
+border:none;
+
+background: #F4F4F4;
+border-radius: 300px;
+}
+.password
+{
+
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    left: 7%;
+    top: 68%;
+    border:none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+}
+.logIn
+{
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    left: 7%;
+    top: 80%;
+    outline: none;
+    border:none;
+    background: #2FC3FF;
+    border-radius: 300px;
+}
+input
+{
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+}
+button{
+    color: white;
+    font-family: Montserrat;
+font-style: normal;
+}
+::placeholder
+{
+    color: #D2D1D1;
+    font-family: Montserrat;
+    font-style: normal;
+    
+}
+
+.haveacc
+{
+
+    position: absolute;
+    width: 244px;
+    height: 18px;
+    left: 18%;
+    top: 95%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 18px;
+    
+    
+    letter-spacing: 0.02em;
+    
+    color: #2FC3FF;
+}
+textarea:focus, input:focus{
+    outline: none;
+}

@@ -1,0 +1,178 @@
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Montserrat;
+   
+}
+body
+{
+  background-color: #ffffff;
+}
+.main
+{
+	width: 350px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.logo
+{
+
+    width: 250px;
+	position: absolute;
+	top: 10px;
+	cursor: pointer;
+    left: 15%;
+    
+
+}
+
+.title
+{
+position: absolute;
+width: 100px;
+height: 29px;
+left: 35%;
+top: 200px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+
+color: #424242;
+}
+.email
+{
+    /* Rectangle 32 */
+
+
+position: absolute;
+width: 287px;
+height: 45px;
+left: 7%;
+top: 323px;
+border: none;
+
+background: #F4F4F4;
+border-radius: 300px;
+}
+.password
+{
+    
+position: absolute;
+width: 287px;
+height: 45px;
+left: 7%;
+top: 392px;
+border: none;
+
+background: #F4F4F4;
+border-radius: 300px;
+
+}
+.logIn
+{
+position: absolute;
+width: 287px;
+height: 45px;
+left: 7%;
+top: 461px;
+border:none;
+
+background: #2FC3FF;
+border-radius: 300px;
+}
+button
+{
+    color:#ffffff;
+    font-family: Montserrat;
+    font-style: normal;
+}
+input
+{
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+    
+}
+::placeholder
+{
+    color: #D2D1D1;
+    font-family: Montserrat;
+    font-style: normal;
+}
+.or
+{
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    left: 45%;
+    top: 510px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+}
+.caa
+{
+   
+position: absolute;
+width: 159px;
+height: 18px;
+left: 23%;
+top: 560px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14.5px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #2FC3FF;
+}
+a{
+    text-decoration: none;
+}
+
+.forgotpass
+{
+    position: absolute;
+    width: 134px;
+    height: 17px;
+    left: 139px;
+    top: 690px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #424242;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}

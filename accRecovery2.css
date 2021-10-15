@@ -1,0 +1,115 @@
+
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Montserrat;
+   
+}
+body
+{
+  background-color: #ffffff;
+}
+.main
+{
+	width: 350px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.logo
+{
+
+    width: 250px;
+	position: absolute;
+	top: 10px;
+	cursor: pointer;
+	left: 37px;
+
+}
+.title
+{
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    top: 306px;
+    margin-left: 15%;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    
+    color: #424242;
+    
+}
+.password
+{
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    margin-left: 7%;
+    top: 360px;
+    border:none;
+    
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+}
+.reEntpassword
+{
+    margin-left: 7%;
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    text-align: center;
+    top: 428px;
+    border:none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+    
+
+}
+input{
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center;
+}
+::placeholder{
+    color: #D2D1D1;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button
+{
+    position: absolute;
+    margin-left: 8%;
+    width: 287px;
+    height: 45px;
+    top: 450px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    
+    
+    background: #2FC3FF;
+    border-radius: 300px;
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+} 

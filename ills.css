@@ -1,0 +1,18 @@
+body
+{
+position: relative;
+background: #2FC3FF;
+}
+.img
+{
+position: absolute;
+width: 328px;
+height: 119px;
+left: 41px;
+top: 306px;
+background: url(logo.png);
+}
+.container
+{
+	display: flex;
+}

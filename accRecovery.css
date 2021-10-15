@@ -1,0 +1,104 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: Montserrat;
+   
+}
+body
+{
+  background-color: #ffffff;
+}
+.main
+{
+	width: 350px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.logo
+{
+
+    width: 250px;
+	position: absolute;
+	top: 10px;
+	cursor: pointer;
+	left: 37px;
+
+}
+.title
+{
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    height: 29px;
+    top: 306px;
+    margin-left: 12%;
+    
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    
+    color: #424242;
+    
+}
+.mobNumber
+{
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    margin-left: 7%;
+   
+    top: 377px;
+    border: none;
+    
+    background: #F4F4F4;
+    border-radius: 300px;
+}
+input{
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::placeholder{
+    color:  #D2D1D1;;
+}
+button
+{
+    position: absolute;
+    width: 287px;
+    height: 45px;
+    top: 450px;
+    margin-left: 7%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    
+    
+    background: #2FC3FF;
+    border-radius: 300px;
+    
+}
+button{
+    font-family: Montserrat;
+    color: #ffffff ;
+    outline: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+} 
